@@ -2,22 +2,13 @@
   "name": "terminal-progress",
   "version": "0.0.0",
   "description": "terminal progress bar",
-  "main": "lib/index.mjs",
+  "main": "lib/index.cjs",
   "license": "MIT",
-  "type": "module",
   "author": {
     "email": "mrhukun@gmial.com",
     "name": "Hu Kun"
   },
   "keywords": [],
-  "scripts": {
-    "test": "node ./lib/index.test.mjs"
-  },
-  "devDependencies": {
-    "@types/chalk": "^2.2.0",
-    "@types/node": "^13.11.1"
-  },
-  "dependencies": {
-    "chalk": "^4.1.0"
-  }
+  "devDependencies": {},
+  "scripts": {}
 }
