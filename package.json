@@ -1,14 +1,27 @@
 {
   "name": "terminal-progress",
-  "version": "0.0.0",
-  "description": "terminal progress bar",
-  "main": "lib/index.cjs",
+  "version": "0.0.9",
+  "main": "lib/index.js",
+  "type": "commonjs",
+  "types": "types/index.d.ts",
+  "files": [
+    "lib",
+    "src",
+    "types"
+  ],
   "license": "MIT",
+  "description": "terminal progress bar",
   "author": {
     "email": "mrhukun@gmial.com",
     "name": "Hu Kun"
   },
   "keywords": [],
-  "devDependencies": {},
-  "scripts": {}
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "typescript": "4.7.1-rc",
+    "@types/node": "^16.10.3"
+  }
 }
